@@ -1,0 +1,8 @@
+<template name='m2Social'>
+  <button class="btn" id="entry-{{this}}" name="{{this}}">
+  	{{#if google}}
+  		<i class="icon-{{this}}-plus"></i> Sign {{buttonText}} with {{this}}</button>
+  	{{else}}
+  		<i class="icon-{{this}}"></i> Sign {{buttonText}} with {{this}}</button>
+  	{{/if}}
+</template>

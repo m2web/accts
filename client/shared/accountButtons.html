@@ -1,0 +1,9 @@
+<template name="m2AccountButtons">
+{{#if currentUser}}
+  <a class="m2-sign-out">Sign Out</a>
+{{else}}
+  <a href="/signin">Sign In</a>
+  <span>or</span>
+  <a href="/signup">Sign Up</a>
+{{/if}}
+</template>
