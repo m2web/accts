@@ -13,3 +13,5 @@ less
 coffeescript
 accounts-entry
 accounts-password
+accounts-ui
+accounts-facebook

@@ -18,4 +18,11 @@ Router.map(function() {
 				Session.set('error', undefined);
 			}
 	});
+	this.route('home', {path: '/signout', 
+			onBeforeRun: function(){
+				Session.set('error', undefined);
+				Session.set('buttonText', 'out');
+			}
+		}
+	);
 });

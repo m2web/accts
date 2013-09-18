@@ -1,3 +1,3 @@
 @AccountsEntry = {
-  config: {dashboardRoute: 'home'}
+  config: {dashboardRoute: 'home',homeRoute: 'home'}
 }
